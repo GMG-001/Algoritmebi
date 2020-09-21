@@ -23,6 +23,17 @@ if a>b:
 elif b>a:
     if b>c:
         if b>d:
-            print(b)
+            if b>e:
+                print(b)
+elif c>a:
+    if c>b:
+        if b>d:
+            if c>e:
+                print(c)
+elif d>a:
+    if d>b:
+        if d>c:
+            if d>e:
+                print(d)
 else:
     print(e)
