@@ -61,12 +61,4 @@ else:
             if d>e:
                 print(d)
             else:
-                return(e)
-
-# # 2 
-# a=[]
-# g=int(input('ricxvi '))
-# for i in range(g):
-#     b=i%2
-#     a.append(b)
-#     print(a)
+                print(e)
