@@ -14,7 +14,7 @@
 # print(largest)
 
 # #3_2
-# (a,b,c,d,e)=(60,55,105,50,155)
+# (a,b,c,d,e)=(60,15,105,150,155)
 # if a>b:
 #     if a>c:
 #         if a>d:
@@ -34,7 +34,6 @@
 #             else:
 #                 print(e)
 #         else:
-
 #             if d>e:
 #                 print(d)
 #             else:
