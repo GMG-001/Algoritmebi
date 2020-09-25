@@ -31,6 +31,8 @@ if a>b:
         if c>d:
             if c>e:
                 print(c)
+            else:
+                print(e)
         else:
 
             if d>e:
