@@ -32,12 +32,34 @@ if a>b:
             if c>e:
                 print(c)
         else:
-            print(e)
+
+            if d>e:
+                print(d)
+            else:
+                print(e)
 else:
     if b>c:
-        print(b)
+        if b>d:
+            if b>e:
+                print(b)
+            else:
+                print(e)
+        else:
+            if d>e:
+                print(d)
+            else:
+                print(e)
     else:
-        print(c)
+        if c>d:
+            if c>e:
+                print(c)
+            else:
+                print(e)
+        else:
+            if d>e:
+                print(d)
+            else:
+                return(e)
 
 # # 2 
 # a=[]
