@@ -14,26 +14,26 @@
 # print(largest)
 
 # #3_2
-# (a,b,c,d,e)=(10,5,3,50,15)
+# (a,b,c,d,e)=(105,55,35,50,155)
 # if a>b:
 #     if a>c:
 #         if a>d:
 #             if a>e:
 #                 print(a)
-# elif b>a:
-#     if b>c:
-#         if b>d:
-#             if b>e:
-#                 print(b)
-# elif c>a:
-#     if c>b:
-#         if b>d:
-#             if c>e:
-#                 print(c)
-# elif d>a:
-#     if d>b:
-#         if d>c:
+#             else:
+#                 print(e)
+#         else:
 #             if d>e:
 #                 print(d)
+#             else:
+#                 print(e)
+#     else:
+#         if c>d:
+#             print(c)
+#         else:
+#             print(d)
 # else:
-#     print(e)
+#     if b>c:
+#         print(b)
+#     else:
+#         print(c)
