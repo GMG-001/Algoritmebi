@@ -1,17 +1,16 @@
 # #3_1
-# (a,b,c,d,e)=(20,5,300,500,510)
+(a,b,c,d,e)=(200,5,300,500,510)
 
-# if (a>b) and (a>c) and (a>d) and (a>e):
-#     largest=a
-# elif (a<b) and (b>c) and (b>d) and (b>e):
-#     largest=b
-# elif (c>a) and (c>b) and (c>d) and (c>e):
-#     largest=c
-# elif (d>a) and (d>b) and (c<d) and (d>e):
-#     largest=d
-# else:
-#     largest=e
-# print(largest)
+largest=a
+if (a<b) and (b>c) and (b>d) and (b>e):
+    largest=b
+elif (c>a) and (c>b) and (c>d) and (c>e):
+    largest=c
+elif (d>a) and (d>b) and (c<d) and (d>e):
+    largest=d
+elif (e>a) and (e>b) and (e>c) and (e>d):
+    largest=e
+print(largest)
 
 # #3_2
 # (a,b,c,d,e)=(60,15,105,150,155)
