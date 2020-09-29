@@ -1,16 +1,27 @@
-# #3_1
-(a,b,c,d,e)=(200,5,300,500,510)
 
-largest=a
-if (a<b) and (b>c) and (b>d) and (b>e):
-    largest=b
-elif (c>a) and (c>b) and (c>d) and (c>e):
-    largest=c
-elif (d>a) and (d>b) and (c<d) and (d>e):
-    largest=d
-elif (e>a) and (e>b) and (e>c) and (e>d):
-    largest=e
-print(largest)
+# #2
+# a=[]
+# def tobin(N):
+#   if N>1:
+#     tobin(N//2)
+#   a.append(N%2)
+#   print(a)
+
+# tobin(15)
+
+# #3_1
+# (a,b,c,d,e)=(200,511,300,501,510)
+
+# largest=a
+# if b>largest:
+#   largest=b
+# if c>largest:
+#   largest=c
+# if d>largest:
+#   largest=d
+# if e>largest:
+#   largest=e
+# print (largest)
 
 # #3_2
 # (a,b,c,d,e)=(60,15,105,150,155)
