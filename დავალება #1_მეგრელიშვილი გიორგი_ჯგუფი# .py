@@ -1,13 +1,21 @@
+# #1
+# l=[]
+# a,b,c=100,150,5
+# for i in range(a,b+1):
+#     if i%c==0:
+#         l.append(i)
+# print(l)
+# print(len(l))
 
 # #2
 # a=[]
 # def tobin(N):
-#   if N>1:
-#     tobin(N//2)
-#   a.append(N%2)
-#   print(a)
+#     if N>0:
+#         tobin(N//2)
+#         a.append(N%2)
+#     print(a)
 
-# tobin(15)
+# tobin(80)
 
 # #3_1
 # (a,b,c,d,e)=(200,511,300,501,510)
@@ -71,3 +79,12 @@
 #                 print(d)
 #             else:
 #                 print(e)
+
+# def DtoB(num):
+#     if num >= 1:
+#       DtoB(num // 2)
+#     print(num % 2, end='')
+
+
+# number = int(input("number: "))
+# DtoB(number)
