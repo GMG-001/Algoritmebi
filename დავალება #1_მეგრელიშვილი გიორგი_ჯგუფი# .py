@@ -1,11 +1,9 @@
 # #1
-# l=[]
-# a,b,c=100,150,5
-# for i in range(a,b+1):
-#     if i%c==0:
-#         l.append(i)
-# print(l)
-# print(len(l))
+# (a,b,c)=(15**5555,10**555,5)
+# if b>a:
+#     print(((b//c+1))-a//c)
+# else:
+#     print(((a//c+1))-b//c)
 
 # #2
 # a=[]
